@@ -11,13 +11,27 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(to bottom, #000000 50%,  #760bf1 50%)
+  background: #ada996; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ada996,
+    #f2f2f2,
+    #dbdbdb,
+    #eaeaea
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ada996,
+    #f2f2f2,
+    #dbdbdb,
+    #eaeaea
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .titleProject {
   color: #ffffff;
 }
 .title {
-  color: #c5c5c5;
+  color: #ffffff;
 }
 .nbRange {
   color: #c5c5c5;
@@ -127,12 +141,12 @@ body {
 }
 .options .option label {
   cursor: pointer;
-  color: #8f8f8f;
+  color: #ffffff;
   padding-left: 0.63rem;
 }
 .wrapper .generate-btn {
   width: 100%;
-  color: #c5c5c5;
+  color: #ffffff;
   border: none;
   outline: none;
   cursor: pointer;
@@ -144,15 +158,15 @@ body {
   margin: 0.94rem 0 1.3rem;
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .wrapper .generate-btn:hover {
   width: 100%;
-  color: #c5c5c5;
+  color: #ffffff;
   border: none;
   outline: none;
   cursor: pointer;
-  background: #4CAF50;
+  background: #4caf50;
   font-size: 1.06rem;
   padding: 0.94rem 0;
   border-radius: 5px;
